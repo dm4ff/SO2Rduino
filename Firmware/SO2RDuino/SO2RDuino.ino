@@ -597,8 +597,8 @@ do_command()
 
     // Handle direct relay: PQ[1..6][0|1]
     if (COMPARE2("PQ")) {
-        byte rel=inBuf[AFTER("TX")]-0x30+7;
-        byte val=inBuf[AFTER("TX")+1]-0x30;
+        byte rel=inBuf[AFTER("PQ")]-0x30+7;
+        byte val=inBuf[AFTER("PQ")+1]-0x30;
         /*
         if (rel==13 && (val==1 || val==0)) {
           Serial.write("PQ-13-OK");
