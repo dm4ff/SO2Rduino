@@ -1,3 +1,13 @@
+This is a derivative of the SO2Rduino of M1DST.
+Changes:
+- portable code due to usage of Serial-library
+- uses the Velleman KA05 Relais shield to switch Phones and Keyer
+- uses the TX switch as a toggle
+- no AUX function
+
+
+=== ORIGINAL TEXT ===
+
 This is a hardware and software project to control multiple radios in a SO2R environment using the [Open Two Radio Switching Protocol (OTRSP)](http://www.k1xm.org/OTRSP/index.html "Open Two Radio Switching Protocol (OTRSP)").
 
 The software runs on the popular [Arduino](http://arduino.cc/).  It also includes a shield to make connecting everything to the Arduino much cleaner.  I have designed the shield to be compatible with the [Arduino Mega](http://arduino.cc/en/Main/arduinoBoardMega).
